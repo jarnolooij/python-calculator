@@ -11,6 +11,8 @@ def calculator(a, op, b):
         output = int(a * b)
     elif op == "/":
         output = int(a / b)
+    else : 
+        return "No valid equation given!"
     return output
 
 print('Your answer is:', calculator(a, op, b))
